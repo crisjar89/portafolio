@@ -1,9 +1,16 @@
 @import url(css/header.css);
+@import url(css/sobre-mi.css);
+
 main{
-    background-color: azure;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: ui-serif;
     overflow: hidden;
+    background-color: rgb(251, 254, 255);
+}
+main{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

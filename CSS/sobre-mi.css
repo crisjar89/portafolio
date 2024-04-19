@@ -1,0 +1,61 @@
+/*Ajustes para la presentación*/
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.texto-presentacion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: 50px 10%;
+}
+.presentacion h1{
+    font-size: 2.7em;
+    font-weight: bold;
+}
+.presentacion p{
+    font-size: 1.5em;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-weight: 350;
+}
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+.presentacion img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+/*Ajustes para la sección #Sobre Mi*/
+
+.sobre-mi{
+    width: 100%;
+    background-color:lightcyan;
+        
+}
+.sobre-mi div{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10%;
+}
+.sobre-mi h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin: 1em 0em;
+}
+.sobre-mi p{
+    font-size: 1em;
+    font-weight: 400;
+    width: 65%;
+    margin: 1em 0em;
+    
+}
