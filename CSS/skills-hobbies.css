@@ -1,0 +1,13 @@
+.bloques{
+    display: flex;
+    gap: 1em;
+}
+.bloque-skill, .bloque-hobbie{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    background-color: lightblue;
+    padding
+    : 2em;
+    text-align: left;
+}

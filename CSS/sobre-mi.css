@@ -1,10 +1,10 @@
 /*Ajustes para la presentación*/
+
 .presentacion{
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 .texto-presentacion{
     width: 50%;
@@ -40,7 +40,6 @@
 .sobre-mi{
     width: 100%;
     background-color:lightcyan;
-        
 }
 .sobre-mi div{
     display: flex;
@@ -57,5 +56,4 @@
     font-weight: 400;
     width: 65%;
     margin: 1em 0em;
-    
 }
