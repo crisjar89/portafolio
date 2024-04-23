@@ -1,3 +1,14 @@
+.skills, .hobbies{
+    margin: 50px 10%;
+}
+.skills h2{
+    font-size: 2em;
+    line-height: 1.5em;
+}
+.hobbies h2{
+    font-size: 2em;
+    line-height: 1.5em;
+}
 .bloques{
     display: flex;
     gap: 1em;
@@ -7,7 +18,12 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     background-color: lightblue;
-    padding
-    : 2em;
+    padding: 1em;
     text-align: left;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.bloques img{
+    width: 65px;
+    margin: 10px auto;
 }

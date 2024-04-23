@@ -1,15 +1,13 @@
 @import url(css/header.css);
 @import url(css/sobre-mi.css);
 @import url(css/skills-hobbies.css);
+@import url(css/formacion.css);
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
+body{
+    width: 1440px;
     background-color: rgb(251, 254, 255);
 }
-main{
+body{
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;

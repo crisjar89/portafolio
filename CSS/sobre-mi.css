@@ -39,7 +39,7 @@
 
 .sobre-mi{
     width: 100%;
-    background-color:lightcyan;
+    background-color:lightblue;
 }
 .sobre-mi div{
     display: flex;
@@ -56,4 +56,5 @@
     font-weight: 400;
     width: 65%;
     margin: 1em 0em;
+    line-height: 1.5em;
 }
