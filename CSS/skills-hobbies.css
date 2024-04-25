@@ -1,13 +1,18 @@
 .skills, .hobbies{
     margin: 50px 10%;
 }
-.skills h2{
+.skills h2, .hobbies h2{
     font-size: 2em;
     line-height: 1.5em;
+    width: 48%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-.hobbies h2{
+hobbies h2{
     font-size: 2em;
     line-height: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bloques{
     display: flex;
@@ -22,6 +27,8 @@
     text-align: left;
     border-radius: 10px;
     font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bloques img{
     width: 65px;

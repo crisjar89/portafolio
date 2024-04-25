@@ -1,29 +1,29 @@
-formacion{
+.formacion{
     margin: 0px 10%;
     background-color:lightblue;
     display: flex;
     flex-direction: column;
 }
-curso{
+.curso{
     background-color: rgb(251, 254, 255);
     display: flex;
 
 }
-curso img{
+.curso img{
     width: 75%;
     padding-left: 12%;
     padding-right: 12%;
 }
-info-curso{
+.info-curso{
     width: 50%;
     padding: 20px;
     align-items: left;
 }
-formacion h3{
-    width: 100%;
+.formacion h3{
+    width: 95%;
     font-size: medium;
     padding: 8px 0px;
 }
-formacion p{
+.formacion p{
     font-size: x-small;
 }

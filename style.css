@@ -1,0 +1,74 @@
+import url(css/header.css);
+import url(css/sobre-mi.css);
+import url(css/skills-hobbies.css);
+import url(css/formacion.css);
+/*ajustes para el body*/
+body{
+  width: 100%;
+  background-color: rgb(251, 254, 255);
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*ajustes del menu*/
+header{
+  width: 100%;
+  height: 10em;
+  display: flex;
+  flex-direction: row;    
+  align-items: center;
+}
+h3{
+  font-size: 1.25em;
+  width: 30%;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.icono{
+  width: 20px;
+  height: auto;
+  padding-right: 20px;
+}
+header nav{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin: 0px 1em;
+}
+.menu-item{
+  list-style: none;
+  font-size: 1em;
+  color: rgb(22, 22, 22);
+
+}
+.menu-item-extra{
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  color:rgb(22, 22, 22);
+  margin-right: 5%;
+  margin-left: 1em;
+}
+nav a{
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+}
+
+/*ajustes para la presentacion*/
+
+
+/*ajustes de la sección Sobre Mi*/
+
+/*ajustes de la sección Skills & Hobbies*/
+
+/*Ajustes de la sección Formaciones*/
+
+/**/
