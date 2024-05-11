@@ -129,6 +129,51 @@ nav a{
   line-height: 1.25em;
 }
 /*ajustes de la sección Skills & Hobbies*/
+.skills{
+  width: 80%;
+  padding: 35px 10%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills h2{
+  display: flex;
+  align-self: flex-start;
+  margin: 1em;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.25em;
+}
+.bloques{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6%;
+}
+bloque-skill{
+  width: 25%;
+  display: flex;
+  background-color: #CFE5ED;
+  border: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 1em;
+}
+.bloque-skill{
+  width: 25%;
+  display: flex;
+  background-color: #CFE5ED;
+  border: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 1em;
+}
+.bloques img{
+  width: 65%;
+}
 
 /*Ajustes de la sección Formaciones*/
 
