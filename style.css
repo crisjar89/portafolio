@@ -67,7 +67,7 @@ nav a{
 /*ajustes para la presentacion*/
 .presentacion{
   width: 80%;
-  padding: 0px 10%;
+  padding: 50px 10% 0px 10%;
   background-color: #CFE5ED;
   display: flex;
   flex-flow: row;
@@ -110,7 +110,7 @@ nav a{
 /*ajustes de la sección Sobre Mi*/
 .sobre-mi{
   width: 80%;
-  padding: 25px 10% 75px 10%;
+  padding: 50px 10% 75px 10%;
   background-color: #CFE5ED;
   display: flex;
   flex-flow: row;
@@ -184,7 +184,7 @@ nav a{
 /*Ajustes de la seccion Hobbies*/
 .hobbies{
   width: 80%;
-  padding: 35px 10%;
+  padding: 35px 10% 100px 10%;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -231,7 +231,57 @@ nav a{
 /*Ajustes de la sección Formaciones*/
 .formacion{
   width: 80%;
-  
+  padding: 50px 10% 0px 10%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #CFE5ED;
+  gap: 10px;
+}
+.formacion h2{
+  margin: 1em;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.25em;
+  align-self: flex-start;
+}
+.cursos{
+  width: 95%;
+  display: flex;
+  flex-flow: row;
+  align-items: space-between;
+  justify-content: center;
+  background-color: #CFE5ED;
+  gap: 2%;
+}
+.curso{
+  width: 30%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.curso img{
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #F5F5F5;
+}
+.info-curso{
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+  align-self: flex-start;
+}
+.info-curso h3{
+  font-size: 1.3vw;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+.info-curso p{
+  font-size: 1vw;
+  line-height: 1.2em;
 }
 
-/**/
+/*Ajustes de la sección */
