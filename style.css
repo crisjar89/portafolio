@@ -285,3 +285,10 @@ nav a{
 }
 
 /*Ajustes de la sección */
+.proyectos{
+  width: 80%;
+  padding: 50px 10% 0px 10%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
