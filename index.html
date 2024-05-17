@@ -112,35 +112,36 @@
       </section>
 
       <section id="proyectos" class="proyectos">
+        <h2>Proyectos</h2>
         <div>
-          <div>
+          <div class="proyecto">
             <img src="images/encriptador.png">
-            <div>
+            <div class="proyecto-texto">
               <h3>Encriptador de Texto</h3>
               <p>Challenge - Alura Latam</p>
-              <div>
+              <div class="btns">
                 <button>Repositorio</button>
                 <button>Abrir Web</button>
               </div>
             </div>
           </div>
-          <div>
+          <div class="proyecto">
             <img src="images/menudecafe.png">
-            <div>
+            <div class="proyecto-texto">
               <h3>Coffee Menu</h3>
               <p>FreeCodeCamp</p>
-              <div>
+              <div class="btns">
                 <button>Repositorio</button>
                 <button>Abrir Web</button>
               </div>
             </div>
           </div>
-          <div>
+          <div class="proyecto">
             <img src="images/formulario.png">
-            <div>
-              <h3>formulario de Registro</h3>
+            <div class="proyecto-texto">
+              <h3>Formulario de Registro</h3>
               <p>FreeCodeCamp</p>
-              <div>
+              <div class="btns">
                 <button>Repositorio</button>
                 <button>Abrir Web</button>
               </div>
@@ -150,16 +151,21 @@
       </section>
 
       <section id="contacto" class="contacto">
-        <img src="images/perfil.png">
-        <div class="bloque-contacto">
-          <h3>Contacto</h3>
-          <p>¿Deseas contactarme?</p>
-          <P>Deja tu mensaje completando el siguiente formulario y te responderé lo más pronto posíble.</P>
-          <input>
-          <input>
-          <input>
-          <input>
-        </div>
+        <h3>Contacto</h3>
+        <section class="formulario">
+          <img src="images/contacto.jpg">
+          <form method="post" action='https://register-demo.freecodecamp.org'>
+            <h4>¿Deseas contactarme?</h4>
+            <P>Escríbe tu mensaje el siguiente formulario y te responderé lo más pronto posíble.</P>  
+            <fieldset class="bloque-contacto">
+              <label for="nombre"><input id="nombre" type="text" name="nombre-contacto" required/></label>
+              <label for="correo"><input id="correo" type="email" name="coreo-contacto" required/></label>
+              <label for="asunto"><input id="asunto" type="text" name="tema" /></label>
+              <label for="mensaje"><input id="mensaje" type="text" name="cuerpo-mensaje" required/></label>
+              <input type="submit" value="Enviar"/>
+            </fieldset>
+          </form>
+        </section>
       </section>
       
     </main>

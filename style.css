@@ -287,8 +287,127 @@ nav a{
 /*Ajustes de la sección */
 .proyectos{
   width: 80%;
-  padding: 50px 10% 0px 10%;
+  padding: 50px 10% 30px 10%;
   display: flex;
   flex-flow: column;
+  align-items: space-between;
+  justify-content: space-around;
+}
+.proyectos h2{
+  color: #2B454F;
+  display: flex;
+  align-self: flex-start;
+  margin: 1em;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.25em;
+}
+.proyectos :nth-child(2){
+  flex-direction: row-reverse;
+}
+.proyecto {
+  width: 80%;
+  margin: 5% 10%;
+  padding-bottom: 40% auto 40% auto;
+  background-color: #2B454F;
+  box-shadow: 10px 10px 20px #2B454F;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.proyecto img {
+  width: 60%;
+  margin: 5% 2%;
+  border: 1vw ridge rgba(81, 192, 236, 0.6);
+}
+.proyecto-texto{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
+.proyecto-texto h3{
+  width: 100%;
+  font-style: italic;
+  text-align: center;
+  color: #CFE5ED;
+  font-weight: 500;
+  font-size: 3.5vh;
+  margin: 5px 5%;
+}
+.proyecto-texto p{
+  width: 90%;
+  margin: 5px 5%;
+  font-style: italic;
+  text-align: center;
+  color: #CFE5ED;
+  font-weight: 300;
+  font-size: 2.2vh;
+}
+.btns{
+  width: 100%;
+  padding: 5%;
+}
+.btns button{
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  box-shadow: 3px 3px 10px black;
+  background-color: #CFE5ED;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 770;
+  color: #2B454F;
+}
+
+/*Ajustes del formulario de contacto*/
+.contacto{
+  width: 80%;
+  padding: 65px 10% 100px 10%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+}
+.contacto h3{
+  display: block;
+  color: #2B454F;
+  margin: 1em;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.25em;
+}
+.formulario{
+  width: 100%;
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: start;
+}
+.formulario img{
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #2B454F;
+}
+.formulario p{
+  margin: 1em;
+  font-size: 1em;  
+  font-weight: 450;
+  line-height: 1.25em;
+}
+.formulario h4{
+  margin: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.25em;
+}
+.bloque-contacto{
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
