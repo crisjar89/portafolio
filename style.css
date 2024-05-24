@@ -48,7 +48,10 @@ header nav{
   font-size: 1.2vw;
   font-weight: 425;
   color: #2B454F;
-
+  transition: 300ms ease-in-out;
+}
+.menu-item:hover {
+  transform: scale(1.1);
 }
 .menu-item-extra{
   list-style: none;
@@ -57,6 +60,10 @@ header nav{
   color:rgb(22, 22, 22);
   margin-right: 5%;
   margin-left: 1em;
+  transition: 300ms ease-in-out;
+}
+.menu-item-extra:hover {
+  text-decoration: underline;
 }
 nav a{
   font-size: 1.1em;
@@ -99,12 +106,23 @@ nav a{
   text-decoration: none;
   color: #2B454F;
   font-weight: 450;
+  transition: 250ms ease-in-out;
+}
+.redes a:hover{
+  color: blue;
+}
+.redes a:active{
+  color: orange;
 }
 .presentacion img{
   margin: 2em;
   width: 20%;
   border-radius: 50%;
   box-shadow: 0 0 5px #2B454F;
+  transition: 350ms ease-in-out;
+}
+.presentacion img:hover{
+  transform: scale(1.25);
 }
 
 /*ajustes de la sección Sobre Mi*/
@@ -170,6 +188,11 @@ nav a{
   align-items: center;
   flex-flow: column;
   gap: 1em;
+  transition: 250ms;
+}
+.bloque-skill:hover{
+  box-shadow: 0 0 40px #1b133a;
+  transform: scale(1.15);
 }
 .bloques-skills img{
   padding-top: 20%;
@@ -177,9 +200,11 @@ nav a{
 }
 .bloques-skills p{
   font-size: 0.9em;
+  font-weight: bold;
   color: #2B454F;
   text-decoration: underline;
 }
+
 
 /*Ajustes de la seccion Hobbies*/
 .hobbies{
@@ -217,6 +242,11 @@ nav a{
   align-items: center;
   flex-flow: column;
   gap: 1em;
+  transition: 250ms;
+}
+.bloque-hobbie:hover{
+  box-shadow: 0 0 40px #1b133a;
+  transform: scale(1.15);
 }
 .bloques-hobbies img{
   padding-top: 20%;
@@ -224,6 +254,7 @@ nav a{
 }
 .bloques-hobbies p{
   font-size: 0.9em;
+  font-weight: bold;
   color: #2B454F;
   text-decoration: underline;
 }
@@ -252,22 +283,28 @@ nav a{
   align-items: space-between;
   justify-content: center;
   background-color: #CFE5ED;
-  gap: 2%;
+  gap: 3%;
 }
 .curso{
   width: 30%;
   padding-bottom: 5%;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
 }
 .curso img{
   width: 100%;
   padding-bottom: 5%;
   padding-top: 5%;
   background-color: #F5F5F5;
+  transition: 200ms linear 100ms;
+}
+.curso img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #2B454F;
+  border-radius: 30px;
 }
 .info-curso{
   width: 100%;
@@ -320,6 +357,11 @@ nav a{
   width: 60%;
   margin: 5% 2%;
   border: 1vw ridge rgba(81, 192, 236, 0.6);
+  transition: 500ms;
+}
+.proyecto img:hover{
+  transform: scale(1.2);
+  border: 1vw ridge rgba(148, 71, 0, 0.6);
 }
 .proyecto-texto{
   width: 100%;
@@ -359,6 +401,11 @@ nav a{
   border-radius: 18px;
   font-size: 12px;
   font-weight: 770;
+  transition: 200ms;
+}
+.btns button:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(148, 71, 0);
 }
 .btns a {
   text-decoration: none;
@@ -454,8 +501,13 @@ textarea {
   border: none;
   border-radius: 2px;
   box-shadow: 0 0 10px #2B454F;
+  transition: 200ms;
 }
-
+.btn-enviar:hover{
+  transform: scale(1.2);
+  border-radius: 15px;
+  box-shadow: none;
+}
 /*Ajustes para el Footer*/
 footer {
   height: 80px;
