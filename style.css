@@ -320,6 +320,10 @@ nav a{
   font-size: 1vw;
   line-height: 1.2em;
 }
+.info-curso a {
+  text-decoration: none;
+  color: black;
+}
 
 /*Ajustes de la sección */
 .proyectos{
@@ -523,3 +527,4 @@ footer p {
   text-align: center;
 }
 
+ 
