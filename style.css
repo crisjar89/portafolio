@@ -614,6 +614,62 @@ footer p {
   }
 }
 
-@media (max-width:360px) {
-  
+@media (max-width:360px) { /*Ajustes responsivos para celular*/
+  /*ajustes del header*/
+  .menu-item-extra {
+    margin-left: 5px;
+    font-size: 3vw;
+  }
+
+  /*ajuste de titulos*/
+  .skills h2, .hobbies h2, .formacion h2, .proyectos h2, .contacto h3 {
+    align-self: center;
+  }
+
+  /*ajustes de skills y hobbies*/
+  .bloques-skills, .bloques-hobbies {
+    flex-wrap: wrap;
+  }
+  .bloque-skill, .bloque-hobbie {
+    width: 40%;
+    padding-bottom: 40%;
+    margin-bottom: 50px;
+  }
+
+  /*ajustes de formaciones*/
+  .cursos {
+    flex-direction: column;
+  }
+  .curso {
+    width: 90%;
+    margin: auto;
+  }
+
+  /*ajustes de proyectos*/
+  .proyecto {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .proyecto img {
+    width: 80%;
+  }
+  .proyecto-texto, .btns {
+    width: 100%;
+  }
+  .proyecto-texto h3 {
+    font-size: small;
+  }
+  .proyecto-texto p {
+    font-size: x-small;
+  }
+  .btns {
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btns button {
+    width: 40%;
+    margin: 5px 4%;
+  }
+
 }
