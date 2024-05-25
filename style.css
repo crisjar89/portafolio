@@ -102,7 +102,7 @@ nav a{
   gap: 3%; 
 }
 .redes a{
-  font-size: 1.1em;
+  font-size: 1em;
   text-decoration: none;
   color: #2B454F;
   font-weight: 450;
@@ -325,7 +325,7 @@ nav a{
   color: black;
 }
 
-/*Ajustes de la sección */
+/*Ajustes de la sección Proyectos*/
 .proyectos{
   width: 80%;
   padding: 50px 10% 30px 10%;
@@ -527,4 +527,93 @@ footer p {
   text-align: center;
 }
 
- 
+@media (max-width:768px) { /*Ajustes responsivos Tablet*/
+  /*Menu y presentación*/
+  .menu{
+    display: none;
+  }
+  .menu-item-extra {
+    font-size: 2vw;
+  }
+  .presentacion {
+    flex-direction: column-reverse;
+  }
+  .presentacion img {
+    margin: 1em;
+    width: 40%;
+  }
+  .texto-presentacion {
+    width: 90%;
+  }
+  .redes {
+    justify-content: space-around;
+  }
+  .redes a {
+    font-size: 0.8em;
+  }
+
+  /*Skills y Hobbies*/
+  .bloque-skill, .bloque-hobbie{
+    width: 25%;
+    padding-bottom: 25%;
+  }
+  .bloque-skill img, .bloque-hobbie img {
+    margin: 10%;
+  }
+  .bloques-skills p, .bloques-hobbies p{
+    font-size: 0.6em;
+    margin-top: 15px;
+  }
+
+  /*Formaciónes*/
+  .formacion {
+    width: 90%;
+    padding: 5%;
+  }
+  .info-curso h3 {
+    font-size: small;
+  }
+  .info-curso p {
+    font-size: x-small;
+    margin-top: 5px;
+  }
+
+  /*Proyectos*/
+  .proyectos {
+    width: 90%;
+    padding: 0 5%;
+  }
+  .proyecto {
+    width: 90%;
+    margin: 5%;
+    padding: 0;
+    flex-direction: column;
+  }
+  #proyecto-impar{
+    flex-direction: column;
+  }
+  .proyecto-texto {
+    width: 70%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .btns {
+    width: 100%;
+  }
+
+  /*Contacto*/
+  .formulario img{
+    display: none;
+  }
+  .formulario, .bloque-contacto {
+    margin: 0;
+  }
+  form {
+    width: 95%;
+    margin: 0;
+  }
+}
+
+@media (max-width:360px) {
+  
+}
