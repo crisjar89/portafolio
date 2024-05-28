@@ -5,7 +5,7 @@
     <title>Portafolio Crisjar89</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -164,11 +164,11 @@
             <h4>¿Deseas contactarme?</h4>
             <P>Escríbe tu mensaje en el siguiente formulario y te responderé lo más pronto posíble.</P>  
             <fieldset class="bloque-contacto">
-              <label for="nombre">Nombre: <input id="nombre" type="text" name="nombre-contacto" required/></label>
-              <label for="correo">Correo Electrónico: <input id="correo" type="email" name="coreo-contacto" required/></label>
+              <label for="nombre">Nombre:  <input id="nombre" type="text" name="nombre-contacto" required maxlength="50"/></label>
+              <label for="correo">Correo Electrónico:<input id="correo" type="email" name="coreo-contacto" placeholder="correo@dominio.com" required/></label>
               <label for="asunto">Asunto: <input id="asunto" type="text" name="tema" /></label>
               <label for="mensaje">Mensaje: <textarea id="mensaje" rows="7" type="text" name="cuerpo-mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea></label>
-              <input class="btn-enviar" type="submit" value="Enviar"/>
+              <input class="btn-enviar" id="enviar" type="submit" value="Enviar"/>
             </fieldset>
           </form>
         </section>
@@ -179,5 +179,6 @@
       <p>Desarrollado por Christiam Artavia Rojas</p>
       <p>Crisjar89 &copy; 2024</p>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
